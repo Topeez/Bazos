@@ -1,0 +1,195 @@
+.flexmain {
+    display: flex;
+    margin: 20px 10px;
+    font-size: .7rem;
+}
+
+.menuleft {
+    flex: 0 0 15%;
+    font-size: 1rem;
+}
+
+.nadpismenu__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .5rem;
+    height: 50px;
+    background-color: #ff8900;
+    border: 1px solid #ff8900;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.kat__container {
+    border: 1px solid #ff8900;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: auto;
+}
+
+.kat__container a {
+    text-decoration: none;
+    color: black;
+    transition: color .2s ease;
+}
+
+.kat__container a:hover {
+    color: #ff8900;
+}
+
+.znacky-aut__container,
+.uz-vozidla__container,
+.moto__container {
+    padding: 10px;
+    display: grid;
+    border-radius: 5px;
+    background-color: #ffecbf;
+}
+
+
+.inzeraty__container {
+    margin-left: 15px;
+    padding: 0;
+    width: 100%;
+}
+
+.inzeraty-header {
+    border-radius: 5px;
+    width: auto;
+    margin: 0 0 5px 20px;
+    background-color: #ff8900;
+}
+
+.zobrazeni__container {
+    fill: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.zobrazeni__container p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.zobrazeni__container svg {
+    margin: 0 5px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.inzeraty-item__container {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, auto);
+    grid-gap: 1.5rem 0;
+}
+
+
+.inzeraty-item__container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 23%);
+    grid-gap: 2rem;
+}
+
+.inzeraty-item__container-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, auto);
+    grid-gap: 1.5rem 0;
+}
+
+.inzeraty-item__container a {
+    text-decoration: none;
+}
+
+.inzerat {
+    max-height: 370px;
+    display: flex;
+    border-radius: 5px;
+    font-size: .7rem;
+    overflow: hidden;
+    -webkit-box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.19);
+    box-shadow: 3px 3px 10px 4px rgba(0, 0, 0, 0.19);
+    transition: all .2s ease-in-out;
+}
+
+.inzerat:hover {
+    transform: scale(1.01);
+}
+
+.inzerat__grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.inzerat a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.inzerat img {
+    height: 200px;
+    width: 352px;
+    object-fit: cover;
+    margin: 5px 10px 5px 5px;
+}
+
+.nazev-inzeratu {
+    margin-bottom: 15px;
+}
+
+.inzerat-info {
+    flex: 1;
+    margin: 5px;
+}
+
+.tagy-inzeratu {
+    display: block;
+    text-align: left;
+    margin: 5px 0;
+    word-wrap: break-word;
+}
+
+.tags {
+    cursor: default;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 5px 3px;
+    padding: 8px 13px;
+    color: #ffffff;
+    background-color: #ff8900;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.popis-vozidla {
+    font-size: 1rem;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container-wrapper {
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.footer__claim {
+    height: auto;
+    padding: 20px 40px;
+    border-top: 1px solid #ff8900;
+    color: #000000;
+    margin-top: 200px;
+    font-size: 1.25rem;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.18);
+}

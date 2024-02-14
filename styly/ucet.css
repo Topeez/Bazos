@@ -1,0 +1,80 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.muj-ucet__container {
+    border: 2px solid #ff8900;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 10px 300px;
+    height: 200px;
+    width: 700px;
+    position: relative;
+}
+
+.muj-ucet__container h1 {
+    text-align: center;
+}
+
+.muj-ucet__container form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.odkazy {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px;
+}
+
+.odkazy__item {
+    font-size: 1.3rem;
+    transition: all .3s ease;
+}
+
+.odkazy__item:hover {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #ff8900;
+}
+
+.odkazy__item a {
+    text-decoration: none;
+    color: #000000;
+    transition: all .3s ease;
+}
+
+.odkazy__item a:hover {
+    color: #ffffff;
+}
+
+.logout__btn {
+    position: absolute;
+    font-size: 1.125rem;
+    bottom: 5%;
+    right: 0;
+    left: 0;
+    margin: 10px 20px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #ff8900;
+    padding: 13px 25px;
+    box-shadow: 6.5px 8px 16.5px 7.5px rgba(0,0,0,0.16);
+    transition: all .3s ease-in-out;
+}
+
+.logout__btn:hover {
+    transform: scale(1.03);
+    background-color: #d52222;
+    color: #ffffff;
+}

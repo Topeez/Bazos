@@ -1,0 +1,85 @@
+.upraveni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.upraveni__container {
+    border: 2px solid #ff8900;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 10px 0;
+}
+
+.upraveni__container form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.upraveni__container h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.upraveni__container input,
+.upraveni__container textarea{
+    border-radius: 5px;
+    padding: 10px 15px;
+    height: 100%;
+    width: 100%;
+    font-size: 1.2rem;
+    border: 1px solid #bfbfbf;
+    margin: 10px 0;
+    outline: none;
+}
+
+.upraveni__container textarea {
+    resize: none;
+    width: 600px;
+    height: 250px;
+    overflow-x: hidden;
+}
+
+.upraveni__container textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+.upraveni__container textarea::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.upraveni__container textarea::-webkit-scrollbar-thumb {
+    background-color: #ff8900;
+    border-radius: 5px;
+}
+
+.upraveni__container input:focus,
+.upraveni__container textarea:focus {
+    border-color: #ff8900;
+}
+
+.upraveni__container input[type=submit] {
+    text-align: center;
+    font-size: 1.125rem;
+    width: 100%;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #ff8900;
+    padding: 13px 25px;
+    transition: all .3s ease-in-out;
+}
+
+.upraveni__container input[type=submit]:hover {
+    transform: scale(1.03);
+}
+
+.upraveni__container input[type=number]::-webkit-inner-spin-button,
+.upraveni__container input[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+}
